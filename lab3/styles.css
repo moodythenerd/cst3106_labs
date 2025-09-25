@@ -37,5 +37,6 @@ section {
 #skills ul {
     list-style-type: square;
     columns: 2;
+    font-size: x-large;
     column-gap: 40px;
 }
