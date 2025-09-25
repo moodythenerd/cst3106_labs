@@ -13,3 +13,12 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
+/* Highlight first item in each list */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* Make the first letter of each paragraph stand out slightly */
+p::first-letter {
+    font-size: 16px;
+}
