@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="" />
+    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/DESIGN_SYSTEM.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/DESIGN_SYSTEM.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab4/mockups" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +87,7 @@
       <workItem from="1758771864114" duration="1481000" />
       <workItem from="1759092690770" duration="1744000" />
       <workItem from="1759238712458" duration="3404000" />
-      <workItem from="1759263248357" duration="246000" />
+      <workItem from="1759263248357" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="changed the skills font size">
       <option name="closed" value="true" />
