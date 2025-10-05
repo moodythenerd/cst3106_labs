@@ -14,19 +14,18 @@ This version uses a **Tech Minimalist** design style with dark backgrounds, glas
 ---
 
 ## 🎯 Objectives
-- Build a structured and semantic Yatzy layout using HTML5.
+- Build a structured and semantic Yatzy layout using HTML.
 - Apply advanced CSS styling techniques (glass panels, shadows, hover animations).
 - Use a consistent **Cyber Violet** color palette.
 - Maintain accessibility and responsive design principles.
 - Prepare the base for future JavaScript logic (rolls, holds, scoring updates).
 
----
 
 
 ---
 
 ## 🛠 Tools & Technologies
-- **HTML5** for semantic structure
+- **HTML** for semantic structure
 - **CSS** for design, layout, and animation
 - **WebStorm** as the main development environment
 - **Git** and **GitHub** for version control and branch management
