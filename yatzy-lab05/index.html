@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yatzy Lab 5</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<header class="app-header">
+    <h1>Yatzy</h1>
+    <div class="status" aria-live="polite">Turn 1 • Rolls left: 3</div>
+</header>
+
+<main class="layout">
+    <section class="panel left" aria-label="Dice and Actions">
+        <div class="tray" role="group" aria-label="Dice Tray">
+            <!-- Die 1 -->
+            <button class="die" aria-pressed="false" aria-label="Die showing 1">
+                <svg viewBox="0 0 72 72">
+                    <rect x="2" y="2" width="68" height="68" rx="14" ry="14" fill="#0F0F1A" stroke="#8B5CF6" stroke-width="2"/>
+                    <circle cx="36" cy="36" r="6" fill="#EAEAF4"/>
+                </svg>
+            </button>
+
+            <!-- Die 2 -->
+            <button class="die" aria-pressed="false" aria-label="Die showing 2">
+                <svg viewBox="0 0 72 72">
+                    <rect x="2" y="2" width="68" height="68" rx="14" ry="14" fill="#0F0F1A" stroke="#8B5CF6" stroke-width="2"/>
+                    <circle cx="18" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="54" r="6" fill="#EAEAF4"/>
+                </svg>
+            </button>
+
+            <!-- Die 3 -->
+            <button class="die" aria-pressed="false" aria-label="Die showing 3">
+                <svg viewBox="0 0 72 72">
+                    <rect x="2" y="2" width="68" height="68" rx="14" ry="14" fill="#0F0F1A" stroke="#8B5CF6" stroke-width="2"/>
+                    <circle cx="18" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="36" cy="36" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="54" r="6" fill="#EAEAF4"/>
+                </svg>
+            </button>
+
+            <!-- Die 4 -->
+            <button class="die" aria-pressed="false" aria-label="Die showing 4">
+                <svg viewBox="0 0 72 72">
+                    <rect x="2" y="2" width="68" height="68" rx="14" ry="14" fill="#0F0F1A" stroke="#8B5CF6" stroke-width="2"/>
+                    <circle cx="18" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="18" cy="54" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="54" r="6" fill="#EAEAF4"/>
+                </svg>
+            </button>
+
+            <!-- Die 5 -->
+            <button class="die" aria-pressed="false" aria-label="Die showing 5">
+                <svg viewBox="0 0 72 72">
+                    <rect x="2" y="2" width="68" height="68" rx="14" ry="14" fill="#0F0F1A" stroke="#8B5CF6" stroke-width="2"/>
+                    <circle cx="18" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="18" r="6" fill="#EAEAF4"/>
+                    <circle cx="36" cy="36" r="6" fill="#EAEAF4"/>
+                    <circle cx="18" cy="54" r="6" fill="#EAEAF4"/>
+                    <circle cx="54" cy="54" r="6" fill="#EAEAF4"/>
+                </svg>
+            </button>
+        </div>
+
+
+    </section>
+    <section class="panel right" aria-label="Scorecard">
+
+        <section class="panel right scorecard" aria-label="Scorecard">
+            <h2>Scorecard</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Score</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr><td>Ones</td><td>Add all 1’s rolled</td><td class="empty">—</td></tr>
+                <tr><td>Twos</td><td>Add all 2’s rolled</td><td class="empty">—</td></tr>
+                <tr><td>Threes</td><td>Add all 3’s rolled</td><td class="empty">—</td></tr>
+                <tr><td>Fours</td><td>Add all 4’s rolled</td><td class="empty">—</td></tr>
+                <tr><td>Fives</td><td>Add all 5’s rolled</td><td class="empty">—</td></tr>
+                <tr><td>Sixes</td><td>Add all 6’s rolled</td><td class="empty">—</td></tr>
+
+                <tr class="sep"><td colspan="3"></td></tr>
+
+                <tr><td>Three of a Kind</td><td>3 dice same number</td><td class="empty">—</td></tr>
+                <tr><td>Four of a Kind</td><td>4 dice same number</td><td class="empty">—</td></tr>
+                <tr><td>Full House</td><td>3 of one + 2 of another</td><td class="empty">—</td></tr>
+                <tr><td>Small Straight</td><td>Sequence of 4 (1–4, 2–5, 3–6)</td><td class="empty">—</td></tr>
+                <tr><td>Large Straight</td><td>Sequence of 5 (1–5 or 2–6)</td><td class="empty">—</td></tr>
+                <tr><td>Yatzy</td><td>All 5 dice same (50 pts)</td><td class="empty">—</td></tr>
+                <tr><td>Chance</td><td>Add all dice (any combo)</td><td class="empty">—</td></tr>
+
+                <tr class="total"><td>Total</td><td>—</td><td>0</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+    </section>
+</main>
+
+<footer class="app-footer">
+    <small>© 2025 Yatzy Lab</small>
+</footer>
+</body>
+</html>
