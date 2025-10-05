@@ -84,5 +84,5 @@ Yatzy is a five-dice game similar to Poker, where players aim to get the highest
 
 ## ✍️ Author
 **Lab 05 – Yatzy Styling Project**  
-Created for CST3106 (Web Design & Front-End Fundamentals)  
+Created for CST3106 
 By: [Mahmoud Ahmed]

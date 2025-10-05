@@ -79,5 +79,5 @@ Spacing: `1.5` line height, `0.25px` letter spacing for modern readability.
 
 ## ✍️ Author
 **Lab 05 – Yatzy Styling Project**  
-Created for CST3106 (Web Design & Front-End Fundamentals)  
+Created for CST3106
 By: [Mahmoud Ahmed]
