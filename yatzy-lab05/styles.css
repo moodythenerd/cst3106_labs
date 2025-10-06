@@ -1,0 +1,217 @@
+/* ===============================
+   🎨 GLOBAL THEME + COLOR VARIABLES
+   =============================== */
+:root {
+    --bg-950: #0A0A12;     /* page background */
+    --panel-900: #0F0F1A;  /* panels/cards background */
+    --ink-100: #EAEAF4;    /* main text */
+    --ink-400: #A1A1BC;    /* muted text */
+    --violet-500: #8B5CF6; /* accent color */
+    --line-700: #26263A;   /* border line color */
+}
+
+/* reset + base layout */
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: system-ui, "Inter", sans-serif;
+    color: var(--ink-100);
+    background: var(--bg-950);
+}
+
+/* ===============================
+   🟣 HEADER + FOOTER STYLING
+   =============================== */
+.app-header, .app-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--panel-900);
+    border-bottom: 1px solid var(--line-700);
+}
+
+.app-footer {
+    border-top: 1px solid var(--line-700);
+    border-bottom: none;
+    margin-top: 24px;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+}
+
+.status { color: var(--ink-400); }
+
+/* ===============================
+   🧩 MAIN GRID LAYOUT
+   =============================== */
+.layout {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr; /* left wider than right */
+    gap: 24px;
+    max-width: 1200px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+/* ===============================
+   🧱 PANEL STYLING
+   =============================== */
+.panel {
+    background: var(--panel-900);
+    border: 1px solid var(--line-700);
+    border-radius: 16px;
+    padding: 16px;
+    min-height: 200px;
+}
+
+/* ===============================
+   🎲 DICE TRAY
+   =============================== */
+.tray {
+    display: flex;
+    flex-wrap: wrap;       /* allows wrapping to multiple rows */
+    gap: 14px;             /* space between dice */
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.die {
+    width: 86px;
+    height: 86px;
+    border-radius: 14px;
+    border: 1px solid rgba(196,181,253,0.28);
+    background: linear-gradient(180deg, rgba(124,58,237,0.08), rgba(15,15,26,0.65));
+    box-shadow: 0 10px 28px rgba(124,58,237,0.2),
+    0 2px 0 rgba(196,181,253,0.16) inset;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+
+/* hover & click */
+.die:hover {
+    transform: translateY(-1px) scale(1.02);
+    box-shadow: 0 14px 36px rgba(124,58,237,0.28);
+}
+.die:active { transform: scale(0.97); }
+
+/* keyboard focus */
+.die:focus-visible {
+    outline: 2px solid var(--violet-500);
+    outline-offset: 2px;
+}
+
+/* held dice glow preview */
+.die[data-held="true"],
+.die[aria-pressed="true"] {
+    box-shadow: 0 0 0 2px rgba(124,58,237,0.55),
+    0 18px 40px rgba(124,58,237,0.38);
+    transform: scale(1.04);
+}
+
+/* ===============================
+   🟣 ROLL BUTTON
+   =============================== */
+.actions {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.roll-btn {
+    background: var(--violet-500);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.3);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    max-width: fit-content;
+}
+.roll-btn:hover {
+    transform: translateY(-1px) scale(1.03);
+    box-shadow: 0 0 18px rgba(139, 92, 246, 0.45);
+}
+.roll-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.25);
+}
+
+/* ===============================
+   📊 SCORECARD TABLE STYLING
+   =============================== */
+.scorecard { overflow-x: auto; }
+
+.scorecard h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+    color: var(--violet-500);
+    letter-spacing: 0.5px;
+}
+
+.scorecard table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    color: var(--ink-100);
+    border: 1px solid var(--line-700); /* outer border */
+}
+
+.scorecard th,
+.scorecard td {
+    text-align: left;
+    padding: 10px 14px;
+    border: 1px solid var(--line-700); /* grid borders */
+}
+
+/* header style */
+.scorecard thead {
+    border-bottom: 2px solid var(--line-700);
+}
+.scorecard th {
+    font-weight: 600;
+    color: var(--ink-400);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+}
+
+/* body rows */
+.scorecard tbody tr {
+    border-bottom: 1px solid var(--line-700);
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+.scorecard tbody tr:hover {
+    background: rgba(139, 92, 246, 0.08);
+    border-color: var(--violet-500);
+}
+
+/* separator + total rows */
+.scorecard tr.sep td {
+    border: none;
+    height: 8px;
+    background: transparent;
+}
+.scorecard tr.total {
+    font-weight: bold;
+    background: rgba(139, 92, 246, 0.08);
+}
+.scorecard tr.total td {
+    border-top: 2px solid var(--violet-500);
+}
+
+/* empty score cells */
+.scorecard .empty {
+    color: var(--ink-400);
+    font-style: italic;
+}

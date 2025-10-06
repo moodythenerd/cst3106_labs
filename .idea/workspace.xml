@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/DESIGN_SYSTEM.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/DESIGN_SYSTEM.md" afterDir="false" />
-    </list>
+    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,26 +30,35 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="32fKXCZGCDARNmSYbLc0PERG5uI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.dice.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lab4",
+    "git-widget-placeholder": "yahtzee-styling-lab5",
+    "javascript.nodejs.core.library.configured.version": "22.20.0",
+    "javascript.nodejs.core.library.typings.version": "22.18.8",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/ahmedtawfiq/cst3106_labs",
+    "last_opened_file_path": "/usr/local/bin/node",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -61,10 +68,20 @@
       <recent name="$PROJECT_DIR$/lab4/mockups" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="dice.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" nameIsGenerated="true" path-to-js-file="dice.js" working-dir="$PROJECT_DIR$/yatzy-lab05">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.dice.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
       </set>
     </attachedChunks>
   </component>
@@ -88,6 +105,16 @@
       <workItem from="1759092690770" duration="1744000" />
       <workItem from="1759238712458" duration="3404000" />
       <workItem from="1759263248357" duration="1083000" />
+      <workItem from="1759353276687" duration="1390000" />
+      <workItem from="1759627018602" duration="39000" />
+      <workItem from="1759627108270" duration="30000" />
+      <workItem from="1759628327630" duration="11601000" />
+      <workItem from="1759698986497" duration="1810000" />
+      <workItem from="1759700931345" duration="138000" />
+      <workItem from="1759701072662" duration="896000" />
+      <workItem from="1759702018785" duration="66000" />
+      <workItem from="1759702166155" duration="224000" />
+      <workItem from="1759702463638" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="changed the skills font size">
       <option name="closed" value="true" />
