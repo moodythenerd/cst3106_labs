@@ -1,0 +1,143 @@
+/* Theme */
+:root {
+    --primary: #8E24AA;
+    --background: #F8F6FB;
+    --border: #E1BEE7;
+    --text: #2C2C2C;
+}
+
+/* Base Setup */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid var(--border);
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Layout */
+.game-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+/* Dice Section */
+.dice-section {
+    flex: 1.4;
+    min-width: 450px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(142, 36, 170, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.die {
+    width: 80px;
+    height: 80px;
+    background: var(--background);
+    border: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    border-radius: 12px;
+    color: var(--primary);
+    box-shadow: 0 4px 6px rgba(142, 36, 170, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.die:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px rgba(142, 36, 170, 0.25);
+}
+
+/* Scoreboard */
+.scoreboard {
+    flex: 2;
+    min-width: 500px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(142, 36, 170, 0.1);
+    overflow-y: auto;
+}
+
+.scoreboard h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: var(--primary);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+    border: 1px solid var(--border);
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.score-table th {
+    background-color: var(--primary);
+    color: white;
+}
+
+.score-table td:nth-child(2) {
+    color: #6a1b9a;
+    font-style: italic;
+}
+
+.total-row td {
+    background-color: #f3e5f5;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid var(--border);
+    font-family: "Trebuchet MS", sans-serif;
+}

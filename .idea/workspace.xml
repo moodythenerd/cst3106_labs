@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="" />
+    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,6 +27,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;moodythenerd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:moodythenerd/cst3106_labs.git&quot;,
+    &quot;accountId&quot;: &quot;68f3802b-9f20-40dc-8771-4ff12e579fcc&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -36,29 +49,23 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.dice.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;yahtzee-styling-lab5&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.20.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.18.8&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab5&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/usr/local/bin/node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ahmedtawfiq/cst3106_labs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -67,16 +74,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lab4/mockups" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="dice.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" nameIsGenerated="true" path-to-js-file="dice.js" working-dir="$PROJECT_DIR$/yatzy-lab05">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.dice.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -105,16 +102,14 @@
       <workItem from="1759092690770" duration="1744000" />
       <workItem from="1759238712458" duration="3404000" />
       <workItem from="1759263248357" duration="1083000" />
-      <workItem from="1759353276687" duration="1390000" />
-      <workItem from="1759627018602" duration="39000" />
-      <workItem from="1759627108270" duration="30000" />
-      <workItem from="1759628327630" duration="11601000" />
-      <workItem from="1759698986497" duration="1810000" />
-      <workItem from="1759700931345" duration="138000" />
-      <workItem from="1759701072662" duration="896000" />
-      <workItem from="1759702018785" duration="66000" />
-      <workItem from="1759702166155" duration="224000" />
-      <workItem from="1759702463638" duration="3146000" />
+      <workItem from="1759778561625" duration="894000" />
+      <workItem from="1759891581082" duration="751000" />
+      <workItem from="1759953762319" duration="923000" />
+      <workItem from="1759960616069" duration="456000" />
+      <workItem from="1759972127534" duration="18000" />
+      <workItem from="1760020967610" duration="784000" />
+      <workItem from="1760113143778" duration="1278000" />
+      <workItem from="1760123068400" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="changed the skills font size">
       <option name="closed" value="true" />
