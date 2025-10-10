@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy Game Design — Lab5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>🎲 Yatzy Game Design</h1>
+    <p>Relaxing purple and white interface — Lab5</p>
+</header>
+
+<!-- Main Layout -->
+<main class="game-layout">
+
+    <!-- Dice Section -->
+    <section class="dice-section">
+        <div class="dice-container">
+            <div class="die">⚀</div>
+            <div class="die">⚁</div>
+            <div class="die">⚂</div>
+            <div class="die">⚃</div>
+            <div class="die">⚄</div>
+        </div>
+    </section>
+
+    <!-- Scoreboard -->
+    <section class="scoreboard">
+        <h2>📋 Scoreboard</h2>
+        <table class="score-table">
+            <thead>
+            <tr>
+                <th>Category</th>
+                <th>Scoring Rule</th>
+                <th>Points</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr><td>Ones</td><td>Sum of all 1s</td><td>0</td></tr>
+            <tr><td>Twos</td><td>Sum of all 2s</td><td>0</td></tr>
+            <tr><td>Threes</td><td>Sum of all 3s</td><td>0</td></tr>
+            <tr><td>Fours</td><td>Sum of all 4s</td><td>0</td></tr>
+            <tr><td>Fives</td><td>Sum of all 5s</td><td>0</td></tr>
+            <tr><td>Sixes</td><td>Sum of all 6s</td><td>0</td></tr>
+            <tr><td>Three of a Kind</td><td>Sum of all dice if 3 match</td><td>0</td></tr>
+            <tr><td>Four of a Kind</td><td>Sum of all dice if 4 match</td><td>0</td></tr>
+            <tr><td>Full House</td><td>3 of one + 2 of another (25 pts)</td><td>0</td></tr>
+            <tr><td>Small Straight</td><td>Sequence of 4 (30 pts)</td><td>0</td></tr>
+            <tr><td>Large Straight</td><td>Sequence of 5 (40 pts)</td><td>0</td></tr>
+            <tr><td>Chance</td><td>Sum of all dice</td><td>0</td></tr>
+            <tr><td>Yatzy</td><td>All dice same (50 pts)</td><td>0</td></tr>
+            <tr class="total-row"><td><strong>Total</strong></td><td><strong>Sum of all points</strong></td><td><strong>0</strong></td></tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>Created by Mahmoud • CST3106 - Lab5</p>
+</footer>
+
+</body>
+</html>
