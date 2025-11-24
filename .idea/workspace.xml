@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="" />
+    <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/client/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/server/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab6&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab7&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ahmedtawfiq/cst3106_labs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -68,8 +72,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -117,6 +122,14 @@
       <workItem from="1761757874243" duration="390000" />
       <workItem from="1761768351948" duration="1435000" />
       <workItem from="1762126793178" duration="14000" />
+      <workItem from="1762148102433" duration="2776000" />
+      <workItem from="1762204645568" duration="4883000" />
+      <workItem from="1762211522853" duration="95000" />
+      <workItem from="1762379265644" duration="1735000" />
+      <workItem from="1762652870263" duration="996000" />
+      <workItem from="1763156452198" duration="301000" />
+      <workItem from="1763156962320" duration="173000" />
+      <workItem from="1763325140428" duration="1979000" />
     </task>
     <task id="LOCAL-00001" summary="changed the skills font size">
       <option name="closed" value="true" />
