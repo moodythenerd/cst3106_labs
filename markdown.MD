@@ -189,3 +189,9 @@ Consistency is maintained through:
 6. After any admin action:
     - The table is updated (and re-sorted) to keep the most urgent cases at the top.
 
+    
+
+# 8️⃣ ER DIAGRAM
+
+![Database Schema](screenshots/schema.png)
+
