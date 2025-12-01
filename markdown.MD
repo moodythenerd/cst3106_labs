@@ -1,6 +1,6 @@
 # 🏥 Hospital Triage Web App — Design System
 **Lab 10 — CST3106**  
-**Prepared By:** Mahmoud Ahmed
+**Prepared By:** Mahmoud Ahmed and Aayan Shaikh
 
 ---
 
