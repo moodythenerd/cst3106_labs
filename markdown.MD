@@ -157,5 +157,35 @@ Consistency is maintained through:
 
 ---
 
+# 7️⃣ Layout, Wireframes & Navigation
+1. User opens the User page.
 
+
+2. User selects:
+    - exactly one Injury Type
+    - exactly one Pain Level (1–5)
+
+
+3. When the user clicks "Submit":
+    - The app creates a new triage entry:
+      injury = chosen injury type
+      painLevel = chosen pain level
+      attentionScore = initial score based on painLevel
+    - The entry is stored (later labs: in the emergency_waitlist database).
+    - The user sees a confirmation message; they stay on the same page.
+
+
+4. When the Admin opens the Admin page:
+    - The app loads all stored triage entries.
+    - Entries are sorted by attentionScore (highest first).
+
+
+5. For each row in the Admin table:
+    - [+] increases the attentionScore (up to a max, e.g. 10).
+    - [-] decreases the attentionScore (down to a min, e.g. 1).
+    - [Remove] deletes the entry from the triage list.
+
+
+6. After any admin action:
+    - The table is updated (and re-sorted) to keep the most urgent cases at the top.
 

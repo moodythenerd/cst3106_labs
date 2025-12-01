@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb16e97-9cf5-45d1-8d37-5f5791439c18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown.MD" beforeDir="false" afterPath="$PROJECT_DIR$/markdown.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab7&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab10&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ahmedtawfiq/cst3106_labs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -80,6 +82,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
       <recent name="$PROJECT_DIR$/lab4/mockups" />
     </key>
   </component>
@@ -130,6 +133,10 @@
       <workItem from="1763156452198" duration="301000" />
       <workItem from="1763156962320" duration="173000" />
       <workItem from="1763325140428" duration="1979000" />
+      <workItem from="1763958358912" duration="3010000" />
+      <workItem from="1764012871335" duration="288000" />
+      <workItem from="1764015711017" duration="2365000" />
+      <workItem from="1764549575564" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="changed the skills font size">
       <option name="closed" value="true" />

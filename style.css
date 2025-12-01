@@ -1,6 +1,4 @@
-/* ============================= */
-/*      GLOBAL DESIGN SYSTEM     */
-/* ============================= */
+
 
 :root {
     --primary: #2E7D32;
@@ -12,9 +10,7 @@
     --gray-hover: #cfcfcf;
 }
 
-/* ============================= */
-/*            BACKGROUND         */
-/* ============================= */
+
 
 body {
     margin: 0;
@@ -24,9 +20,7 @@ body {
     min-height: 100vh;
 }
 
-/* ============================= */
-/*            CONTAINER          */
-/* ============================= */
+
 
 .container {
     max-width: 750px;         /* bigger box */
@@ -38,9 +32,7 @@ body {
     backdrop-filter: blur(6px);
 }
 
-/* ============================= */
-/*           TITLES              */
-/* ============================= */
+
 
 h1 {
     text-align: center;
@@ -55,18 +47,13 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* ============================= */
-/*        SECTION HEADERS        */
-/* ============================= */
+
 
 .section-title {
     font-weight: 600;
     margin: 25px 0 12px;
 }
 
-/* ============================= */
-/*         GRIDS & BUTTONS       */
-/* ============================= */
 
 .button-grid {
     display: grid;
@@ -94,9 +81,7 @@ button:hover {
     box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
 }
 
-/* ============================= */
-/*          SUBMIT BUTTON        */
-/* ============================= */
+
 
 .submit-btn {
     width: 100%;
@@ -114,9 +99,7 @@ button:hover {
     background: #1b5e20;
     box-shadow: 0 6px 15px rgba(46, 125, 50, 0.35);
 }
-/* ============================= */
-/*        ADMIN TABLE STYLES     */
-/* ============================= */
+
 
 .admin-container {
     max-width: 850px;  /* wider admin box */
