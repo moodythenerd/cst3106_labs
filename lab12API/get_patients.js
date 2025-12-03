@@ -11,6 +11,11 @@ const pool = new Pool({
     database: "emergency_waitlist"
 });
 
+// ✅ Add this route to fix the blank home page
+app.get("/", (req, res) => {
+    res.send("API is running. Go to /patients to see the list.");
+});
+
 // Route
 app.get("/patients", async (req, res) => {
     try {
